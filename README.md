@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!https://app.diagrams.net/
+https://github.com/CiarraForsythe/AzureNetworkProject1/blob/master/Diagrams/Untitled%20Diagram.pdf.png
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  -https://github.com/CiarraForsythe/AzureNetworkProject1/blob/master/Ansible
 
 This document contains the following details:
 - Description of the Topologu
@@ -45,7 +45,11 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- 10.0.0.7 
+- 10.0.0.8
+- 10.0.0.9
+- 10.1.0.4 
+
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_

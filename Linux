@@ -1,1 +1,18 @@
 
+Command used to connect to JumpBox w/Docker from local machine
+
+[This command allows local machine to connect to the VM JumpBox]
+
+$ ssh Ciarra@52.188.22.103
+
+[This command list all containers in Docker] 
+
+$ sudo docker container list -a
+
+[Command to start container]
+
+$ sudo docker start festive_sinoussi
+
+[Command used to attach Docker]
+
+$sudo docker attach festive_sinoussi

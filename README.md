@@ -9,11 +9,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
   -https://github.com/CiarraForsythe/AzureNetworkProject1/blob/master/Ansible
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
-  - Beats in Use
-  - Machines Being Monitored
+- Beats in Use
+- Machines Being Monitored
 - How to Use the Ansible Build
 
 
@@ -78,10 +78,6 @@ The playbook implements the following tasks:
 - Download and launch a docker elk container
 -Enable docker service
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - 10.0.0.7
@@ -105,7 +101,6 @@ SSH into the control node and follow the steps below:
 
 - Run the playbook, and navigate to http://40.118.206.90/appl/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - YML file is the playbook? Where do you copy it? /etc/ansible/roles directory has the ansible playbooks
 - _Which file do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?_

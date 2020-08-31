@@ -51,8 +51,8 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 - 10.1.0.4 
 
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by ssh port 22.
+- Only the jumpbox will allow to access your ELK VM. The IP Address for this is 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
 
